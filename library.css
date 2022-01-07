@@ -67,23 +67,6 @@ nav {
     color: white;
 }
 
-.visit-btn {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    padding: 12px 34px;
-    font-size: 90%;
-    cursor: pointer;
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-    transition: ease-in 0.25s;
-}
-.visit-btn:hover {
-    border: 1px solid rgba(255, 255, 255, 0.100);
-    background: rgba(224, 184, 51, 0.7);
-}
-
 /* -----HAMBURGER----- */
 
 .hamburger {
@@ -213,17 +196,6 @@ img {
     width: 70%;
 }
 
-.qualities {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.qualities h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
 p {
     color: #777;
     font-size: 14px;
@@ -231,29 +203,11 @@ p {
     line-height: 22px;
     padding: 10px;
 }
-.quality-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-around;
-}
-.quality-col {
-    flex-basis: 31%;
-    background: rgb(249, 246, 238);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: ease-in 0.25s;
-}
 
 h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-}
-
-.quality-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* -----FOOTER----- */

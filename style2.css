@@ -9,7 +9,7 @@
 .header {
     min-height: 30vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("images/library2.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("images/library3.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -51,7 +51,6 @@ nav {
     position: absolute;
     width: 100%;
     text-align: center;
-    
     color: white;
 }
 
@@ -68,13 +67,13 @@ nav {
 .submit-btn {
     display: inline-block;
     position: relative;
-    text-decoration: none;
     padding: 12px 34px;
     font-size: 90%;
-    cursor: pointer;
     background: transparent;
+    text-decoration: none;
     color: black;
     border: 1px solid black;
+    cursor: pointer;
     transition: ease-in 0.25s;
 }
 .submit-btn:hover {
@@ -227,8 +226,8 @@ nav {
 }
 
 .item-title, .item-author  {
-    color: white;
     display: none;
+    color: white;
 }
 
 .item-content:hover .item-author {
@@ -239,35 +238,23 @@ nav {
     font-size: 110%;
 }
 
-
 .input-filter {
     width: 100%;
 }
 
 input {
     display: block;
-    border: 1px solid black;
-    font-size: 14px;
-    padding: 12px 10px;
-    margin: 14px auto 14px auto;
     width: 70%;
+    margin: 14px auto 14px auto;
+    padding: 12px 10px;
+    font-size: 14px;
+    border: 1px solid black;
 }
 
 img {
     width: 70%;
 }
 
-.qualities {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.qualities h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
 p {
     color: #777;
     font-size: 14px;
@@ -275,29 +262,11 @@ p {
     line-height: 22px;
     padding: 10px;
 }
-.quality-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-around;
-}
-.quality-col {
-    flex-basis: 31%;
-    background: rgb(249, 246, 238);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: ease-in 0.25s;
-}
 
 h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-}
-
-.quality-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* -----FOOTER----- */
